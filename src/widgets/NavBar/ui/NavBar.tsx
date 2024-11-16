@@ -10,7 +10,9 @@ const NavBar: FC<NavBarProps> = ({content}) =>
 {
     return(
         <div className={styles.NavBarContainer}>
-            <ImRocket />
+            <div className={styles.NavBarContainer_icon}>
+                <ImRocket />
+            </div>
             {content}
         </div>
     )
