@@ -1,6 +1,6 @@
 import React, { FC, ReactNode } from "react";
 import { Link } from "react-router-dom";
-
+import styles from "./LinkPage.module.scss"
 interface LinkProps{
     children: ReactNode
     path: string
@@ -9,7 +9,7 @@ interface LinkProps{
 const LinkPage:FC<LinkProps> = ({children, path}) =>
 {
     return(
-        <Link to={path} className="">{children}</Link>
+        <Link to={path} className={styles.LinkPageContainer}>{children}</Link>
     )
 }
 

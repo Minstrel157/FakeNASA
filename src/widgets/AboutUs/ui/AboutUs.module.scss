@@ -1,0 +1,30 @@
+.AboutUsContainer{
+    font-family: "Montserrat", sans-serif;
+    background-image: url(../../../shared/Images/mainPageBackground.jpg);
+    height: 55vw;
+    background-size: cover;
+    display: flex;
+    padding-left: 10%;
+    padding-top: 3%;
+
+    .AboutUsContainer_Information{
+        width: 40%;
+        height: 40vw;
+        background-color: slategray;
+        border-radius: 2px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .AboutUsContainer_Information_Header{
+            font-size: 1vw;
+            display: inline;
+        }
+
+        .AboutUsContainer_Information_Description{
+            font-size: 1vw;
+            display: flex;
+            text-align: center;
+        }
+    }
+}

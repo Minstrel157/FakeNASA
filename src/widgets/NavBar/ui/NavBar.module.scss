@@ -2,12 +2,17 @@
     margin: 0;
     padding: 0;
 }
+
 .NavBarContainer
 {
     display: flex;
     align-items: center;
     gap: 10%;
-    width: 100%;
-    height: 50px;
-    padding-left: 5%;
+    width: 99%;
+    height: 4vw;
+    padding-left: 1vw;
+
+    .NavBarContainer_icon{
+        font-size: 2.4vw;
+    }
 }

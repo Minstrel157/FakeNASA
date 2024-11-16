@@ -1,7 +1,7 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import MainPage from "./pages/MainPage/mainPage"
+import MainPage from "./pages/MainPage/MainPage"
 
 function App() {
   // const [image, setImage] = useState([])
