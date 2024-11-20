@@ -2,7 +2,7 @@ import axios from "axios"
 import { useEffect, useState } from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import MainPage from "./pages/MainPage/MainPage"
-
+import FotoDay from "./pages/FotoDay/FotoDay"
 function App() {
   // const [image, setImage] = useState([])
 
@@ -25,6 +25,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<MainPage/>} />
+        <Route path="/dayFoto" element={<FotoDay/>} />
       </Routes>
     </BrowserRouter>
   )
