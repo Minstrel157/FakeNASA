@@ -1,9 +1,9 @@
 import React, { FC } from "react";
-import styles from "./FotoDay.module.scss"
+import styles from "./PhotoDay.module.scss"
 const FotoDay: FC = () =>
 {
     return(
-        <div className={styles.FotoDayContainer}>
+        <div className={styles.PhotoDayContainer}>
             
         </div>
     )
