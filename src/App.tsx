@@ -2,7 +2,7 @@ import axios from "axios"
 import { useEffect, useState } from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import MainPage from "./pages/MainPage/MainPage"
-import FotoDay from "./pages/FotoDay/FotoDay"
+import FotoDay from "./pages/FotoDay/PhotoDay"
 function App() {
   // const [image, setImage] = useState([])
 
