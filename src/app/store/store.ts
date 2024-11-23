@@ -1,7 +1,8 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
+import photoDayReducer from "../../pages/PhotoDay/api/PhotoDaySlice"
 
 const rootReducer = combineReducers({
-
+    photoDayReducer
 })
 
 export const setupStore = () =>{

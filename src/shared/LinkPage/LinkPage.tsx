@@ -1,8 +1,9 @@
-import React, { FC, ReactNode } from "react";
+import React, { FC} from "react";
 import { Link } from "react-router-dom";
 import styles from "./LinkPage.module.scss"
+
 interface LinkProps{
-    children: ReactNode
+    children: string
     path: string
 }
 
