@@ -15,6 +15,10 @@ const PhotoDay: FC = () =>
         <div className={styles.PhotoDayContainer}>
             {isLoading && <h1>Идет загрузка</h1>}
             {error && <h1>{error}</h1>}
+            <h1>Асрономическая картина дня</h1>
+            <p>{photoDay.date}</p>
+            <a href=""></a>
+            <img src={photoDay.hdurl} alt=""  />
         </div>
     )
 }
