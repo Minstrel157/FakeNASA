@@ -10,7 +10,7 @@ const MainPage = () =>
             <NavBar content=
             {[
                 <LinkPage children="Фото дня" path="/dayPhoto" />, 
-                <LinkPage children="Погода на марсе" path="" />
+                <LinkPage children="Погода на марсе" path="/MarsWeather" />
             ]}/>
             <AboutUs />
         </div>
